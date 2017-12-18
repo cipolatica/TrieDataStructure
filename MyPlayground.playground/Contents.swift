@@ -23,7 +23,7 @@ if trie.addFile(fileName: "TextFile", fileType: "txt") {
     print(trie.containsAllWords(toMake: "as")) //true
     print(trie.containsAllWords(toMake: "as as")) //false
     print(trie.containsAllWords(toMake: "")) //false
-    print(trie.containsAllWords(toMake: "deer")) //true
+    print(trie.containsAllWords(toMake: "deer")) //false
     print(trie.containsAllWords(toMake: "addition addition")) // true
     print(trie.containsAllWords(toMake: "addition addition addition")) //false
     
